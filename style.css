@@ -1,0 +1,88 @@
+
+.formulario-matriz {
+    display: grid;
+    grid-template-columns: repeat(3, 55px);
+    row-gap: 4px;
+    border-collapse: collapse;
+
+}
+
+.mi-input {
+    width: 40px;
+    border: none;
+    box-shadow: inset 3px 3px 5px #00000038, -5px -5px 20px #fafbff;
+    border-radius: 3px;
+    text-align: center;
+    text-size-adjust: 2px;
+    padding: 6px;
+    color: #56595a;
+}
+
+.flexbox-div {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.style-background {
+    background-color: #f8f4f4;
+    padding: 10px 20px;                 
+}
+
+.style-card {
+    background-color: #e0e3ec;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px 20px;
+    box-shadow: 5px 5px 10px #161b1d38, -5px -5px 10px #fafbff;
+    align-items: center;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: #5b6975;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #56595a;
+}
+
+.botones {
+    border-radius: 20px;
+    border: none;
+    background-color: #cccfd6;
+    box-shadow: 3px 3px 5px #00000038;
+    padding: 12px 70px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #56595a;
+}
+
+.botones:hover {
+    background-color: #c1c3c7;
+}
+
+.formulario-botones {
+    display: grid;
+    gap: 8px;
+    align-items: center;
+    margin: 30px;
+}
+
+.content {
+    display: grid;
+    background-color: #f3eeee98;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 5px;
+    box-shadow: inset 3px 3px 10px #161b1d38, -1px -1px 40px #fafbff;
+
+}
+

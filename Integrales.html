@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="./styleIntegrales.css">
+    <script type="module" src="./Ope3.js"></script>
+</head>
+
+<body>
+    <div class="style-background">
+        <h1>CALCULADORA DE INTEGRALES</h1>
+        <div class="style-card">
+
+            <div class="flexbox-div">
+
+                <div class="content">
+                    <h2>Metodo de Sipmson</h2>
+                    <div class="order">
+                        <h3>b =</h3>
+                        <input id="limiteB" class="my-input" type="number">
+                    </div>
+
+                    <div class="order">
+                        <h2>∫</h2>
+                        <input id="funcion" class="my-input-f" type="text">
+                        <h3>dx;</h3>
+                        <h3>n =</h3>
+                        <input id="intervalos" class="my-input" type="number">
+                    </div>
+
+                    <div class="order">
+                        <h3>a =</h3>
+                        <input id="limiteA" class="my-input" type="number">
+                    </div>
+                </div>
+            </div>
+
+            <form class="formulario-botones">
+                <input class="botones" id="calcular" type="button" value="Calcular">
+            </form>
+
+            <div class="flexbox-div">
+                <div class="content">
+                    <h3>Resultado =</h3>
+                    <input class="my-input-f" type="text" id="resultado" readonly>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
