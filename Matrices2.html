@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title></title>
+    <title>Calculitos con Sophia</title>
     <link rel="stylesheet" href="./style.css">
     <script src="./Ope.js"></script>
     <script>
@@ -14,34 +14,29 @@
     <div class="style-background">
         <h1>OPERACIONES CON DOS MATRICES</h1>
         <div class="style-card">
+            <div class="flexbox-div">
+                <h3>Filas =</h3>
+                <input id="Filas" class="mi-input" type="number">
+                <h3>Columnas =</h3>
+                <input id="Columnas" class="mi-input" type="number">
+            </div>
+
+            <form class="formulario-botones">
+                <input class="botones" id="crearMatriz" type="button" value="Crear Matriz">
+            </form>
+
             <div class="content">
                 <div class="flexbox-div">
                     <h3>Matriz A =</h3>
                     <form id="matrizA" class="formulario-matriz">
-                        <input class="mi-input" type="text">
-                        <input class="mi-input" type="text">
-                        <input class="mi-input" type="text">
-                        <input class="mi-input" type="text">
-                        <input class="mi-input" type="text">
-                        <input class="mi-input" type="text">
-                        <input class="mi-input" type="text">
-                        <input class="mi-input" type="text">
-                        <input class="mi-input" type="text">
+                        
                     </form>
                 </div>
 
                 <div class="flexbox-div">
                     <h3>Matriz B =</h3>
                     <form id="matrizB" class="formulario-matriz">
-                        <input class="mi-input" type="text">
-                        <input class="mi-input" type="text">
-                        <input class="mi-input" type="text">
-                        <input class="mi-input" type="text">
-                        <input class="mi-input" type="text">
-                        <input class="mi-input" type="text">
-                        <input class="mi-input" type="text">
-                        <input class="mi-input" type="text">
-                        <input class="mi-input" type="text">
+                        
                     </form>
                 </div>
             </div>
@@ -56,16 +51,8 @@
             <div class="content">
                 <div class="flexbox-div">
                     <h3>Resultado =</h3>
-                    <form id="matrizResultado" class="formulario-matriz">
-                        <input class="mi-input" type="text" readonly>
-                        <input class="mi-input" type="text" readonly>
-                        <input class="mi-input" type="text" readonly>
-                        <input class="mi-input" type="text" readonly>
-                        <input class="mi-input" type="text" readonly>
-                        <input class="mi-input" type="text" readonly>
-                        <input class="mi-input" type="text" readonly>
-                        <input class="mi-input" type="text" readonly>
-                        <input class="mi-input" type="text" readonly>
+                    <form id="matrizResultadoAB" class="formulario-matriz">
+                       
                     </form>
                 </div>
             </div>   

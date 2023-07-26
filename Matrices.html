@@ -2,52 +2,49 @@
 <html>
 
 <head>
-    <title></title>
+    <title>Calculitos con Sophia</title>
     <link rel="stylesheet" href="./style.css">
     <script src="./Ope.js"></script>
     <script>
-        new MatrizTranspuesta()
+        new MatrizTranspuestaInversa()
     </script>
 </head>
 
 <body>
     <div class="style-background">
         <h1>OPERACIONES CON MATRICES</h1>
+
         <div class="style-card">
+            <div class="flexbox-div">
+                <h3>Filas =</h3>
+                <input id="Filas" class="mi-input" type="number">
+                <h3>Columnas =</h3>
+                <input id="Columnas" class="mi-input" type="number">
+            </div>
+            
+            <form class="formulario-botones">
+                <input class="botones" id="crearMatriz" type="button" value="Crear Matriz">
+            </form>
+
             <div class="content">
                 <div class="flexbox-div">
                     <h3>Matriz =</h3>
                     <form id="matriz" class="formulario-matriz">
-                        <input class="mi-input" name="input1" type="text">
-                        <input class="mi-input" name="input2" type="text">
-                        <input class="mi-input" name="input3" type="text">
-                        <input class="mi-input" name="input4" type="text">
-                        <input class="mi-input" name="input5" type="text">
-                        <input class="mi-input" name="input6" type="text">
-                        <input class="mi-input" name="input7" type="text">
-                        <input class="mi-input" name="input8" type="text">
-                        <input class="mi-input" name="input9" type="text">
+                        
                     </form>
                 </div>
             </div>
 
             <form class="formulario-botones">
                 <input class="botones" id="resultadoTranspuesta" type="button" value="Transpuesta">
+                <input class="botones" id="resultadoInversa" type="button" value="Inversa">
             </form>
         
             <div class="content">
                 <div class="flexbox-div">
                     <h3>Resultado =</h3>
-                    <form id="matrizResultado" class="formulario-matriz">
-                        <input class="mi-input" type="text" readonly>
-                        <input class="mi-input" type="text" readonly>
-                        <input class="mi-input" type="text" readonly>
-                        <input class="mi-input" type="text" readonly>
-                        <input class="mi-input" type="text" readonly>
-                        <input class="mi-input" type="text" readonly>
-                        <input class="mi-input" type="text" readonly>
-                        <input class="mi-input" type="text" readonly>
-                        <input class="mi-input" type="text" readonly>
+                    <form id="matrizResultado">
+
                     </form>
                 </div>
             </div>
